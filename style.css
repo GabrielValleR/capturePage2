@@ -65,19 +65,19 @@ footer{
    padding: 40px;
    text-align:center;
 }
-#cara{
+#face{
     width: 160px;    
     }
-#ccc{
+#textFace{
     display:inline-block;
     max-width:40%;
     margin-left: 40px;
     text-align:left;
 }
-#ccc p{
+#textFace p{
     margin-bottom: 20px;   
 }
-#ccc h2{
+#textFace h2{
     font-size: 24px;
 }
 @media screen and (max-width:790px){
@@ -136,20 +136,20 @@ footer{
        background-color: #202121;
        margin: auto;   
     }
-    #cara{
+    #face{
         width: 100%;
         margin-bottom: 20px; 
     }
-    #ccc{
+    #textFace{
         display:inline;
         max-width:40%;
         margin-left: 40px;
         text-align:left;      
     }    
-    #ccc p{
+    #textFace p{
         margin-bottom: 20px;      
     }
-    #ccc h2{
+    #textFace h2{
         font-size: 24px;
     }
 }
