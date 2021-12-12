@@ -11,35 +11,27 @@ body{
     max-width:1000px;
     margin: auto;   
 }
-
 header{
     background-color:#48c5ce;
     text-align:center;    
     color:white;
-    padding: 10px;
-    
+    padding: 10px;    
 }
-
 h1{
     font-size:25px; 
-     }
-
+}
 section{
     padding:20px;
-    background-image:url("./projetoCaptura/images/people.jpg");    
+    background-image:url("./images/people.jpg");    
     background-size: cover;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
-
-#captura{
-    
+#captura{    
     max-width:250px;
     background-color:rgba(126, 127, 131, 0.473); 
     padding:20px;
     margin-left:auto;
-
-    }
+}
 h2{
     font-size:16px;
     text-align:lest;
@@ -54,8 +46,7 @@ input, select{
     padding:10px;
     border:none;
     margin-bottom: 10px;
-    }
-
+}
 input[type="submit"]{
     color:red;
     background-color:#48c5ce;
@@ -65,21 +56,17 @@ select{
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-image:url("/projetoCaptura/images/arrow.jpg");
+    background-image:url("/images/arrow.jpg");
     background-repeat:no-repeat;
     background-position: calc(100% - 10px) center;
-
 }
-
-footer{
-   
+footer{   
    background-color: #202121;
    padding: 40px;
    text-align:center;
 }
 #cara{
-    width: 160px;
-    
+    width: 160px;    
     }
 #ccc{
     display:inline-block;
@@ -87,49 +74,39 @@ footer{
     margin-left: 40px;
     text-align:left;
 }
-
 #ccc p{
     margin-bottom: 20px;   
-
 }
 #ccc h2{
     font-size: 24px;
 }
-
 @media screen and (max-width:790px){
+    
     header{
         background-color:#48c5ce;
         text-align:center;    
         color:white;
-        padding: 10px;
-        
-    }
-    
+        padding: 10px;        
+    }    
     h1{
         font-size:21px; 
-         }
-    
+    }    
     section{
         padding:20px;
-        background-image:url("./projetoCaptura/images/people.jpg");    
+        background-image:url("./images/people.jpg");    
         background-size: cover;
-        overflow: hidden;
-        
-    }
-    
-    #captura{
-        
+        overflow: hidden;        
+    }    
+    #captura{        
         max-width:350px;
         background-color:rgba(126, 127, 131, 0.473); 
         padding:20px;
-        margin:auto;
-    
-        }
+        margin:auto;    
+    }
     h2{
         font-size:18px;
         text-align:lest;
-        padding-bottom:30px;
-        color:violet;
+        padding-bottom:30px;        
     }
     p{
         padding-bottom:10px;
@@ -140,8 +117,7 @@ footer{
         padding:10px;
         border:none;
         margin-bottom: 10px;
-        }
-    
+    }    
     input[type="submit"]{
         color:white;
         background-color:#48c5ce;
@@ -151,32 +127,27 @@ footer{
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
-        background-image:url("/projetoCaptura/images/arrow.jpg");
+        background-image:url("./images/arrow.jpg");
         background-repeat:no-repeat;
-        background-position: calc(100% - 10px) center;
-    
-    }
-    
-    footer{
-       
+        background-position: calc(100% - 10px) center;    
+    }    
+    footer{   
+       max-width:350px;    
        background-color: #202121;
-       padding: 40px;
-       text-align:center;
+       margin: auto;   
     }
     #cara{
-        width: 160px;
-        
-        }
+        width: 100%;
+        margin-bottom: 20px; 
+    }
     #ccc{
-        display:inline-block;
+        display:inline;
         max-width:40%;
         margin-left: 40px;
-        text-align:left;
-    }
-    
+        text-align:left;      
+    }    
     #ccc p{
-        margin-bottom: 20px;   
-    
+        margin-bottom: 20px;      
     }
     #ccc h2{
         font-size: 24px;
